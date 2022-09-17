@@ -1,11 +1,19 @@
 //import logo from './logo.svg';
-//import './App.css';
+import React from "react";
+import {Fragment} from 'React';
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
+    <div>
       Phone directory
     </div>
+    <button>Add</button>
+    <div>
+      <span>Name</span>
+      <span>Phone</span>
+    </div>
+    </Fragment>
   );
 }
 
